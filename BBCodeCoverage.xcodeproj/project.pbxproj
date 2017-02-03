@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03998CE2820F8104C5B4CDFE /* Pods_BBCodeCoverageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5057BF8958A38173B252B256 /* Pods_BBCodeCoverageUITests.framework */; };
+		0D37BE8ADEABF7488B7035B2 /* Pods_BBCodeCoverageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3335124286FE3ABF15AAD9 /* Pods_BBCodeCoverageTests.framework */; };
 		644A914F1E43FF3C0060F6E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A914E1E43FF3C0060F6E1 /* AppDelegate.swift */; };
 		644A91511E43FF3C0060F6E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A91501E43FF3C0060F6E1 /* ViewController.swift */; };
 		644A91541E43FF3C0060F6E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644A91521E43FF3C0060F6E1 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		644A91591E43FF3C0060F6E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644A91571E43FF3C0060F6E1 /* LaunchScreen.storyboard */; };
 		644A91641E43FF3C0060F6E1 /* BBCodeCoverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A91631E43FF3C0060F6E1 /* BBCodeCoverageTests.swift */; };
 		644A916F1E43FF3C0060F6E1 /* BBCodeCoverageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A916E1E43FF3C0060F6E1 /* BBCodeCoverageUITests.swift */; };
+		AA3DBFE16F274653FF930B55 /* Pods_BBCodeCoverage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEBBF908480C52E6ABFE26A /* Pods_BBCodeCoverage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45B248065447F859418FC504 /* Pods-BBCodeCoverageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCodeCoverageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBCodeCoverageTests/Pods-BBCodeCoverageTests.release.xcconfig"; sourceTree = "<group>"; };
+		5057BF8958A38173B252B256 /* Pods_BBCodeCoverageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBCodeCoverageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		644A914B1E43FF3C0060F6E1 /* BBCodeCoverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBCodeCoverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		644A914E1E43FF3C0060F6E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		644A91501E43FF3C0060F6E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		644A916A1E43FF3C0060F6E1 /* BBCodeCoverageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBCodeCoverageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		644A916E1E43FF3C0060F6E1 /* BBCodeCoverageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBCodeCoverageUITests.swift; sourceTree = "<group>"; };
 		644A91701E43FF3C0060F6E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D9ABE7C32331CFC3D139E22 /* Pods-BBCodeCoverage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCodeCoverage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBCodeCoverage/Pods-BBCodeCoverage.debug.xcconfig"; sourceTree = "<group>"; };
+		854B084B2B97B7A4E80F8CBA /* Pods-BBCodeCoverageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCodeCoverageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBCodeCoverageUITests/Pods-BBCodeCoverageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9512843BE2A141787157F471 /* Pods-BBCodeCoverageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCodeCoverageUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBCodeCoverageUITests/Pods-BBCodeCoverageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DEBBF908480C52E6ABFE26A /* Pods_BBCodeCoverage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBCodeCoverage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3335124286FE3ABF15AAD9 /* Pods_BBCodeCoverageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBCodeCoverageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD3DA294A6E3C59432388EF /* Pods-BBCodeCoverage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCodeCoverage.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBCodeCoverage/Pods-BBCodeCoverage.release.xcconfig"; sourceTree = "<group>"; };
+		F4A358C14A927AB7AE5C592D /* Pods-BBCodeCoverageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCodeCoverageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBCodeCoverageTests/Pods-BBCodeCoverageTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3DBFE16F274653FF930B55 /* Pods_BBCodeCoverage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D37BE8ADEABF7488B7035B2 /* Pods_BBCodeCoverageTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03998CE2820F8104C5B4CDFE /* Pods_BBCodeCoverageUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A433889F11EC8139E7C12CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D9ABE7C32331CFC3D139E22 /* Pods-BBCodeCoverage.debug.xcconfig */,
+				DCD3DA294A6E3C59432388EF /* Pods-BBCodeCoverage.release.xcconfig */,
+				F4A358C14A927AB7AE5C592D /* Pods-BBCodeCoverageTests.debug.xcconfig */,
+				45B248065447F859418FC504 /* Pods-BBCodeCoverageTests.release.xcconfig */,
+				9512843BE2A141787157F471 /* Pods-BBCodeCoverageUITests.debug.xcconfig */,
+				854B084B2B97B7A4E80F8CBA /* Pods-BBCodeCoverageUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		644A91421E43FF3C0060F6E1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				644A91621E43FF3C0060F6E1 /* BBCodeCoverageTests */,
 				644A916D1E43FF3C0060F6E1 /* BBCodeCoverageUITests */,
 				644A914C1E43FF3C0060F6E1 /* Products */,
+				5A433889F11EC8139E7C12CA /* Pods */,
+				E63D46711BC3A872216125DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = BBCodeCoverageUITests;
 			sourceTree = "<group>";
 		};
+		E63D46711BC3A872216125DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DEBBF908480C52E6ABFE26A /* Pods_BBCodeCoverage.framework */,
+				AC3335124286FE3ABF15AAD9 /* Pods_BBCodeCoverageTests.framework */,
+				5057BF8958A38173B252B256 /* Pods_BBCodeCoverageUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 644A91731E43FF3C0060F6E1 /* Build configuration list for PBXNativeTarget "BBCodeCoverage" */;
 			buildPhases = (
+				7714F400A6D8CBBF53AC292F /* [CP] Check Pods Manifest.lock */,
 				644A91471E43FF3C0060F6E1 /* Sources */,
 				644A91481E43FF3C0060F6E1 /* Frameworks */,
 				644A91491E43FF3C0060F6E1 /* Resources */,
+				0AB3F4BB29EA2C8DFBE2A9DB /* [CP] Embed Pods Frameworks */,
+				C87E2EA47DC7B9BA15BAA703 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 644A91761E43FF3C0060F6E1 /* Build configuration list for PBXNativeTarget "BBCodeCoverageTests" */;
 			buildPhases = (
+				C5AD6F5724C8427938F877D7 /* [CP] Check Pods Manifest.lock */,
 				644A915B1E43FF3C0060F6E1 /* Sources */,
 				644A915C1E43FF3C0060F6E1 /* Frameworks */,
 				644A915D1E43FF3C0060F6E1 /* Resources */,
+				5D4E33D075A94E138D801520 /* [CP] Embed Pods Frameworks */,
+				F95352539064ED975014571E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 644A91791E43FF3C0060F6E1 /* Build configuration list for PBXNativeTarget "BBCodeCoverageUITests" */;
 			buildPhases = (
+				5C8BA1794B9CB3DA0B792FA7 /* [CP] Check Pods Manifest.lock */,
 				644A91661E43FF3C0060F6E1 /* Sources */,
 				644A91671E43FF3C0060F6E1 /* Frameworks */,
 				644A91681E43FF3C0060F6E1 /* Resources */,
+				853A448A8E9533C62FC03DB8 /* [CP] Embed Pods Frameworks */,
+				43BE6CB23A9A74CC27610972 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AB3F4BB29EA2C8DFBE2A9DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBCodeCoverage/Pods-BBCodeCoverage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43BE6CB23A9A74CC27610972 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBCodeCoverageUITests/Pods-BBCodeCoverageUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C8BA1794B9CB3DA0B792FA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D4E33D075A94E138D801520 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBCodeCoverageTests/Pods-BBCodeCoverageTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7714F400A6D8CBBF53AC292F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		853A448A8E9533C62FC03DB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBCodeCoverageUITests/Pods-BBCodeCoverageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5AD6F5724C8427938F877D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C87E2EA47DC7B9BA15BAA703 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBCodeCoverage/Pods-BBCodeCoverage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F95352539064ED975014571E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBCodeCoverageTests/Pods-BBCodeCoverageTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		644A91471E43FF3C0060F6E1 /* Sources */ = {
@@ -413,6 +600,7 @@
 		};
 		644A91741E43FF3C0060F6E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9ABE7C32331CFC3D139E22 /* Pods-BBCodeCoverage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZTV6QXXYAS;
@@ -426,6 +614,7 @@
 		};
 		644A91751E43FF3C0060F6E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD3DA294A6E3C59432388EF /* Pods-BBCodeCoverage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZTV6QXXYAS;
@@ -439,6 +628,7 @@
 		};
 		644A91771E43FF3C0060F6E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A358C14A927AB7AE5C592D /* Pods-BBCodeCoverageTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		644A91781E43FF3C0060F6E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B248065447F859418FC504 /* Pods-BBCodeCoverageTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +660,7 @@
 		};
 		644A917A1E43FF3C0060F6E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9512843BE2A141787157F471 /* Pods-BBCodeCoverageUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ZTV6QXXYAS;
@@ -483,6 +675,7 @@
 		};
 		644A917B1E43FF3C0060F6E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854B084B2B97B7A4E80F8CBA /* Pods-BBCodeCoverageUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ZTV6QXXYAS;

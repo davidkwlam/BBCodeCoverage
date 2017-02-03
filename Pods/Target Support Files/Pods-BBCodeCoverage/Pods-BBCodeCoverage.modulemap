@@ -1,0 +1,6 @@
+framework module Pods_BBCodeCoverage {
+  umbrella header "Pods-BBCodeCoverage-umbrella.h"
+
+  export *
+  module * { export * }
+}

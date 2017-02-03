@@ -1,0 +1,6 @@
+framework module Pods_BBCodeCoverageUITests {
+  umbrella header "Pods-BBCodeCoverageUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
